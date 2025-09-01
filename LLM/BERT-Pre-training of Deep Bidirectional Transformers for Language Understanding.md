@@ -20,7 +20,7 @@ BERT (Bidirectional Encoder Representations from Transformers) 是一种基于�
 ### 方法/技术
 
 - **双向Transformer**: 使用Transformer编码器进行双向建模
-- **掩码语言模型(MLM)**: 随机掩盖部分词汇，预测被掩盖的词
+- **掩码V语言模型(MLM)**: 随机掩盖部分词汇，预测被掩盖的词
 - **下一句预测(NSP)**: 预测两个句子是否连续
 - **预训练+微调**: 大规模无标注数据预训练，下游任务微调
 - **WordPiece分词**: 使用子词级别的分词方法
